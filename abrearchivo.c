@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-/* void PideNombreArchivo(char *NombreArchivo); */
-int Archivo_NULL(char *Nombre);
+#include "abrearchivo.h"
 
 int Archivo_NULL(char *Nombre)
 {
@@ -16,11 +11,3 @@ int Archivo_NULL(char *Nombre)
     }
   return 1;
 }
-
-/* void PideNombreArchivo(char *NombreArchivo) */
-/* { */
-/*   char Extension[6]=".csv"; */
-/*   printf("Dame el nombre del archivo: "); */
-/*   scanf("%s",NombreArchivo); */
-/*   strcat(NombreArchivo,Extension); */
-/* } */
