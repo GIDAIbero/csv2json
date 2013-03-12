@@ -1,3 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "abrearchivo.h"
+
 /* MODULO VALIDACION */
 int validacion(int argc, char *argv[], char Nombre_entrada[100], char Nombre_salida[100]);
 /* 
@@ -13,3 +18,7 @@ Regresa los valores:
 void Entrada_Salida(char *argv[], char *Entrada, char *Salida);
 /* Funcion encargada de validar de que la extension de los archivos sean 
 correctos. */
+
+void Despliega_menu (char Nombre_entrada[100],char Nombre_salida[100]);
+void Despliega_error();
+void Menu_Entrada_Salida(char *Entrada, char *Salida);
