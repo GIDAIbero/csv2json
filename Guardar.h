@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
-void GuardarComo(char *Nombre);
 void Menu(int *Opcion);
 void PresionaEnter();
+void Limpia();
